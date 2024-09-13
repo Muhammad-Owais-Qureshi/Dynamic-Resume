@@ -38,6 +38,8 @@ if (form) {
     displayaddress.innerHTML = `${address} `
     displayHomeadress.innerHTML = `${Home1} `
 
+    
+    form.reset();
   });
 }
 
