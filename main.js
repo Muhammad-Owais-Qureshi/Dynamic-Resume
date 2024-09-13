@@ -33,5 +33,6 @@ if (form) {
         displaySkills.innerHTML = `${skill}`;
         displayaddress.innerHTML = `${address} `;
         displayHomeadress.innerHTML = `${Home1} `;
+        form.reset();
     });
 }
